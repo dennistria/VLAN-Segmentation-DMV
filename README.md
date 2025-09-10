@@ -17,5 +17,10 @@ Redesigned a DMV network to segment guest and video traffic while ensuring DHCP 
 - DHCP/APIPA errors eliminated  
 - Video VLAN secured and fully functional  
 
+## Files in this Repository
+- **[VLAN-Segmentation-DMV.pkt](./VLAN-Segmentation-DMV.pkt)** → Cisco Packet Tracer project file  
+- **[Project-Writeup.pdf](./Project-Writeup.pdf)** → Paper explaining requirements, design, and outcome  
+- **[/screenshots](./screenshots/)** → VLAN table, DHCP bindings, ping test results
+  
 ## Reflection
 This project showed me the importance of proper VLAN segmentation for both security and performance.
