@@ -20,7 +20,14 @@ Redesigned a DMV network to segment guest and video traffic while ensuring DHCP 
 ## Files in this Repository
 - **[VLAN-Segmentation-DMV.pkt](./VLAN-Segmentation-DMV.pkt)** → Cisco Packet Tracer project file  
 - **[Project-Writeup.pdf](./Project-Writeup.pdf)** → Paper explaining requirements, design, and outcome  
-- **[/screenshots](./screenshots/)** → VLAN table, DHCP bindings, ping test results
-  
+- **[screenshots/](./screenshots/)** → VLAN table, DHCP bindings, ping test results  
+
+## Proof (Screenshots)
+![VLAN Configuration](./screenshots/Vlan-conf.png)  
+*VLANs configured and verified with `show vlan brief`.*
+
+![DHCP Configuration](./screenshots/Dhcp-conf.png)  
+*DHCP scope active and bindings confirmed with `show ip dhcp binding`.*
+
 ## Reflection
 This project showed me the importance of proper VLAN segmentation for both security and performance.
